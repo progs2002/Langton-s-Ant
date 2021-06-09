@@ -6,4 +6,6 @@ Please make sure you have the pygame module installed, if not then simply use th
 
 run the main.py and it should work just fine. 
 
+bg music created by me
+
 ![alt text](https://github.com/progs2002/Langton-s-Ant/blob/main/screenshot.png?raw=true)
