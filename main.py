@@ -4,7 +4,7 @@ from ant import Ant
 pygame.init()
 screen = pygame.display.set_mode((1000,1000))
 pygame.display.set_caption('Langton\'s Ant')
-window_icon = pygame.image.load('Icon.png').convert()
+window_icon = pygame.image.load('resources/Icon.png').convert()
 pygame.display.set_icon(window_icon)
 
 
@@ -22,10 +22,11 @@ ant = Ant(50,50,1,0)
 
 turn = 0
 
+pygame.mixer.music.load('resources/antmusic.mp3')
+pygame.mixer.music.play(-1)
+
 while running:
 
-  turn+=1
-  print(turn)
   for event in pygame.event.get():
     if event.type == pygame.QUIT:
       pygame.quit()
