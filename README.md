@@ -5,3 +5,5 @@ Please make sure you have the pygame module installed, if not then simply use th
 "pip install pygame"
 
 run the main.py and it should work just fine. 
+
+![alt text](https://github.com/progs2002/Langton-s-Ant/blob/main/screenshot.png?raw=true)
