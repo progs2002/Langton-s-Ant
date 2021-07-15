@@ -3,7 +3,7 @@ from ant import Ant
 
 pygame.init()
 screen = pygame.display.set_mode((1000,1000))
-pygame.display.set_caption('Langot\'s Ant')
+pygame.display.set_caption('Langton\'s Ant')
 window_icon = pygame.image.load('resources/Icon.png').convert()
 pygame.display.set_icon(window_icon)
 
