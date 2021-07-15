@@ -1,4 +1,4 @@
-import pygame,sys
+import pygame,sys,random
 from ant import Ant
 
 pygame.init()
