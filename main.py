@@ -22,7 +22,7 @@ ant = Ant(50,50,1,0)
 
 turn = 0
 
-pygame.mixer.music.load('resources/antmusic.mp3')
+pygame.mixer.music.load('resources/antmusic.ogg')
 pygame.mixer.music.play(-1)
 
 while running:
